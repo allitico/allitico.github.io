@@ -54,6 +54,16 @@ section > * {
     margin: 0 auto;
 }
 
+.nice-font {
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+}
+
+.material-icons {
+    font-size: 1rem;
+    vertical-align: bottom;
+}
+
 /** --- Invitation --- */
 .invitation {
     background-color: #29384f;
@@ -233,10 +243,6 @@ section > * {
     margin-left: 1rem;
 }
 
-.map__info i {
-    font-size: 1rem;
-}
-
 /* --- Schema --- */
 
 .schema::before, .schema::after {
@@ -308,8 +314,7 @@ section > * {
 /* --- Toastmasters --- */
 
 .toastmasters {
-    background-color: #1e293a;
-    color: #ffffff;
+    background-color: #f5bc9e;
 }
 
 .toastmasters::before, .toastmasters::after {
@@ -353,7 +358,8 @@ section > * {
 /* --- End section --- */
 
 .end {
-    background-color: #f5bc9e;
+    background-color: #1e293a;
+    color: #ffffff;
 }
   
 .end::before, .end::after {
@@ -368,7 +374,7 @@ section > * {
       border-top: 0;
       border-left: 0;
       border-right-color: transparent !important;
-      border-color: #f5bc9e;
+      border-color: #1e293a;
 }
   
 .end::after {
