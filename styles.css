@@ -383,6 +383,12 @@ section > * {
 }
 
 @media (max-width: 768px) { 
+    .signup {
+        transform: rotate(20deg);
+        bottom: -4rem;
+        right: 0rem;
+    }
+    
     .intro {
         display: block;
     }
@@ -393,5 +399,26 @@ section > * {
 
     .end::before, .end::after {
         display: none;
+    }
+}
+
+@media (max-width: 550px) { 
+    .intro__important {
+        grid-template-columns: auto;
+    }
+
+    .map__layer-1 {
+        margin: 0.5rem 2rem;
+    }
+
+    .schema-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .toastmasters__container {
+        grid-template-columns: auto;
+        grid-row-gap: 1rem;
+        margin-bottom: 1rem;
     }
 }
