@@ -467,17 +467,35 @@ section > * {
 }
 
 @media (max-width: 550px) { 
+    .invitation-signup {
+        transform: rotate(15deg);
+        bottom: -3.5rem;
+        right: -1rem;
+    }
+
     .intro__important {
         grid-template-columns: auto;
     }
 
+    .map::before, .map::after {
+        display: none;
+    }
+
     .map__layer-1 {
-        margin: 0.5rem 2rem;
+        margin: 0;    
+    }
+
+    .schema::before, .schema::after {
+        display: none;
     }
 
     .schema-container {
         display: grid;
         grid-template-columns: auto;
+    }
+
+    .toastmasters::before, .toastmasters::after {
+        display: none;
     }
 
     .toastmasters__container {
