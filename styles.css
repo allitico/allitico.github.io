@@ -17,6 +17,7 @@ body {
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    position: relative;
 }
 
 h2 {
@@ -52,6 +53,19 @@ section {
 section > * {
     max-width: 1024px;
     margin: 0 auto;
+}
+
+.button {
+    background-color: #29384f;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 2rem;
+}
+
+.button:hover {
+    background-color: #f5bc9e;
+    color: #444444;
 }
 
 .nice-font {
@@ -97,7 +111,7 @@ section > * {
     font-size: 2rem;
 }
 
-.signup {
+.invitation-signup {
     background-color: #29384f;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
@@ -111,7 +125,7 @@ section > * {
     z-index: 1;
 }
 
-.signup__layer-1 {
+.invitation-signup__layer-1 {
     background-color: #ffffff;
     border-top-left-radius: 0.75rem;
     border-bottom-left-radius: 0.75rem;
@@ -122,12 +136,12 @@ section > * {
     justify-content: center;
 }
 
-.signup__layer-1:hover {
+.invitation-signup__layer-1:hover {
     background-color: #f5bc9e;
     cursor: pointer;
 }
 
-.signup__hole {
+.invitation-signup__hole {
     align-self: center;
     background-color: #29384f;
     border-radius: 50%;
@@ -382,13 +396,62 @@ section > * {
       opacity: 0.5;
 }
 
+/* --- Sign-up section --- */
+
+.signup {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.signup__overlay {
+    background-color: #000000;
+    opacity: 0.65;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.signup__wrapper {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    z-index: 3;
+}
+
+.signup__window {
+    background-color: #f5bc9e;
+    border: 1rem solid #29384f; 
+    max-width: 600px;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.window__layer {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.window__layer h3, .signup__button  {
+    text-align: center;
+}
+
+/* --- Media --- */
+
 @media (max-width: 768px) { 
-    .signup {
+    .invitation-signup {
         transform: rotate(20deg);
         bottom: -4rem;
         right: 0rem;
     }
-    
+
     .intro {
         display: block;
     }
