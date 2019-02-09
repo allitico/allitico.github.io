@@ -179,6 +179,63 @@ section > * {
     padding-left: 1.5rem;
 }
 
+/* --- Map --- */
+.map {
+    background-image: url("tofta.jpg");
+    background-position:  center 35%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 20rem;
+}
+
+.map::before, .map::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    border: 2rem solid red;
+    border-width: 5rem;
+    top: 0;
+    right: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-left-color: transparent !important;
+    border-color: #ffffff;
+}
+
+.map::after {
+    margin-right: 2.5rem;
+    opacity: 0.5;
+}
+
+.map__layer-1 {
+    background-color: #f5bc9e;
+    border: 0.5rem solid #29384f; 
+    margin: 0.5rem 0;
+}
+
+.map__layer-2 {
+    background-color: #ffffff;
+    margin: 0.5rem;
+    padding-bottom: 1rem;
+}
+
+.map__layer-2 iframe {
+    width: 100%;
+    height: 16rem;
+    margin-bottom: 1rem;
+}
+
+.map__info {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.map__info i {
+    font-size: 1rem;
+}
+
 /* --- Main section --- */
 
 .main__section {
@@ -191,33 +248,6 @@ section > * {
 .main__section > * {
       width: 1024px;
       margin: 0 auto;
-}
-
-.main__section--find-your-way {
-    background-image: url("tofta.jpg");
-    background-position:  center 35%;
-    background-size: cover;
-    min-height: 60vh;
-}
-  
-.main__section--find-your-way::before, .main__section--find-your-way::after {
-      content: "";
-      display: block;
-      position: absolute;
-      z-index: 0;
-      border: 2rem solid red;
-      border-width: 5rem;
-      top: 0;
-      right: 0;
-      border-bottom-width: 0;
-      border-right-width: 0;
-      border-left-color: transparent !important;
-      border-color: #ffffff;
-}
-  
-.main__section--find-your-way::after {
-      margin-right: 2.5rem;
-      opacity: 0.5;
 }
   
 .find-your-way {
