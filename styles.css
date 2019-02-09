@@ -503,4 +503,8 @@ section > * {
         grid-row-gap: 1rem;
         margin-bottom: 1rem;
     }
+
+    .signup__window {
+        margin: 1rem;
+    }
 }
