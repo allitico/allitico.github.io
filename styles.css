@@ -305,6 +305,51 @@ section > * {
     top: 2px;
 }
 
+/* --- Toastmasters --- */
+
+.toastmasters {
+    background-color: #1e293a;
+    color: #ffffff;
+}
+
+.toastmasters::before, .toastmasters::after {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 0;
+    border: 2rem solid red;
+    border-width: 5rem;
+    top: 0;
+    right: 0;
+    border-bottom-width: 0;
+    border-right-width: 0;
+    border-left-color: transparent !important;
+    border-color: #ffffff;
+}
+
+.toastmasters::after {
+    margin-right: 2.5rem;
+    opacity: 0.5;
+}
+
+.toastmasters__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.toastmasters__photo > img {
+    border: 3px solid #ffffff;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.toastmasters__info {
+    margin-bottom: 1rem;
+}
+
 /* --- Main section --- */
 
 .main__section {
@@ -391,69 +436,4 @@ section > * {
 .main__section--third::after {
       margin-left: 2.5rem;
       opacity: 0.5;
-}
-
-/*
-.schema {
-    display: flex;
-}
-  
-.schema:first-child {
-      padding-left: 0;
-}
-  
-.schema *:last-child {
-      padding-right: 0;
-}
-  
-.schema__day {
-    flex-grow: 1;
-    flex-basis: 0;
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-  */
-
-
-
-
-
-.toast-masters {
-    display: flex;
-  
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-}
-  
-.toast-masters > * {
-    flex-grow: 1;
-    flex-basis: 0;
-}
-  
-.toast-masters__photo {
-margin-right: 1rem;
-}
-  
-.toast-masters__photo > img {
-    width: 100%;
-    border: 3px solid #ffffff;
-    border-radius: 0.5rem;
-}
-  
-.toast-masters__info {
-margin-left: 1rem;
-}
-  
-.toast-masters__toast-master {
-margin-top: 2rem;
-}
-  
-.toast-masters__toast-master > * {
-    margin-bottom: .5rem;
-}
-  
-.toast-master__we-think {
-    border: 1px dashed #ffffff;
-    border-radius: 5px;
-    padding: 1rem;
 }
