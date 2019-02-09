@@ -24,10 +24,16 @@ h1 {
 }
   
 h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.5rem;
+    font-weight: normal;
     margin: 0;
 }
   
 h3 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.25rem;
+    font-weight: normal;
     margin-top: 0;
     margin-bottom: .5rem;
 }
@@ -50,11 +56,12 @@ hr {
 .invitation__layer-1 {
     background-color: #f5bc9e;
     padding: 1rem;
+    position: relative
 }
 
 .invitation__layer-2 {
     background-color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     padding: 1rem;
 }
 
@@ -65,21 +72,20 @@ hr {
 
 .leads__lead {
     font-family: 'Parisienne', cursive;
-    font-size: 1.75rem;
-    font-weight: bold;
+    font-size: 2rem;
 }
 
 .signup {
-    align-self: center;
     background-color: #29384f;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     font-size: 1.25rem;
-    margin-left: -4.5rem;
-    margin-top: 8rem;
     padding: 0.5rem;
-    position: relative;
-    transform: rotate(20deg);
+    transform: rotate(25deg);
+
+    position: absolute;
+    bottom: -1rem;
+    right: -8rem;
     z-index: 1;
 }
 .signup__layer-1 {
