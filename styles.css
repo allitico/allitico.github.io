@@ -213,6 +213,7 @@ section > * {
     background-color: #f5bc9e;
     border: 0.5rem solid #29384f; 
     margin: 0.5rem 0;
+    max-width: 800px;
 }
 
 .map__layer-2 {
