@@ -9,6 +9,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
       sans-serif;
+    font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -16,6 +17,7 @@ body {
 
 h1 {
     color: white;
+    font-family: 'Playfair Display SC', serif;
     font-size: 4rem;
     text-transform: uppercase;
     text-shadow: 1px 1px #1e293a, 2px 2px #1e293a, 3px 3px #1e293a, 4px 4px #1e293a, 5px 5px #1e293a, 6px 6px #1e293a, 7px 7px #1e293a, 8px 8px #1e293a, 9px 9px #1e293a, 10px 10px #1e293a, 11px 11px #1e293a, 12px 12px #1e293a, 13px 13px #1e293a, 14px 14px #1e293a, 15px 15px #1e293a, 16px 16px #1e293a, 17px 17px #1e293a, 18px 18px #1e293a, 19px 19px #1e293a, 20px 20px #1e293a, 21px 21px #1e293a, 22px 22px #1e293a, 23px 23px #1e293a, 24px 24px #1e293a, 25px 25px #1e293a, 26px 26px #1e293a, 27px 27px #1e293a, 28px 28px #1e293a, 29px 29px #1e293a, 30px 30px #1e293a, 31px 31px #1e293a, 32px 32px #1e293a, 33px 33px #1e293a, 34px 34px #1e293a, 35px 35px #1e293a, 36px 36px #1e293a, 37px 37px #1e293a, 38px 38px #1e293a, 39px 39px #1e293a, 40px 40px #1e293a, 41px 41px #1e293a, 42px 42px #1e293a, 43px 43px #1e293a, 44px 44px #1e293a, 45px 45px #1e293a, 46px 46px #1e293a, 47px 47px #1e293a, 48px 48px #1e293a, 49px 49px #1e293a, 50px 50px #1e293a, 51px 51px #1e293a, 52px 52px #1e293a, 53px 53px #1e293a, 54px 54px #1e293a, 55px 55px #1e293a, 56px 56px #1e293a, 57px 57px #1e293a, 58px 58px #1e293a, 59px 59px #1e293a, 60px 60px #1e293a, 61px 61px #1e293a, 62px 62px #1e293a, 63px 63px #1e293a, 64px 64px #1e293a, 65px 65px #1e293a, 66px 66px #1e293a, 67px 67px #1e293a, 68px 68px #1e293a, 69px 69px #1e293a, 70px 70px #1e293a, 71px 71px #1e293a, 72px 72px #1e293a, 73px 73px #1e293a, 74px 74px #1e293a, 75px 75px #1e293a, 76px 76px #1e293a, 77px 77px #1e293a, 78px 78px #1e293a, 79px 79px #1e293a, 80px 80px #1e293a, 81px 81px #1e293a, 82px 82px #1e293a, 83px 83px #1e293a, 84px 84px #1e293a, 85px 85px #1e293a, 86px 86px #1e293a, 87px 87px #1e293a, 88px 88px #1e293a, 89px 89px #1e293a, 90px 90px #1e293a, 91px 91px #1e293a, 92px 92px #1e293a, 93px 93px #1e293a, 94px 94px #1e293a, 95px 95px #1e293a, 96px 96px #1e293a, 97px 97px #1e293a, 98px 98px #1e293a, 99px 99px #1e293a, 100px 100px #1e293a, 101px 101px #1e293a, 102px 102px #1e293a, 103px 103px #1e293a, 104px 104px #1e293a, 105px 105px #1e293a, 106px 106px #1e293a, 107px 107px #1e293a, 108px 108px #1e293a, 109px 109px #1e293a, 110px 110px #1e293a, 111px 111px #1e293a, 112px 112px #1e293a, 113px 113px #1e293a, 114px 114px #1e293a, 115px 115px #1e293a, 116px 116px #1e293a, 117px 117px #1e293a, 118px 118px #1e293a, 119px 119px #1e293a, 120px 120px #1e293a, 121px 121px #1e293a, 122px 122px #1e293a, 123px 123px #1e293a, 124px 124px #1e293a, 125px 125px #1e293a, 126px 126px #1e293a, 127px 127px #1e293a, 128px 128px #1e293a, 129px 129px #1e293a, 130px 130px #1e293a, 131px 131px #1e293a, 132px 132px #1e293a, 133px 133px #1e293a, 134px 134px #1e293a, 135px 135px #1e293a, 136px 136px #1e293a, 137px 137px #1e293a, 138px 138px #1e293a, 139px 139px #1e293a, 140px 140px #1e293a, 141px 141px #1e293a, 142px 142px #1e293a, 143px 143px #1e293a, 144px 144px #1e293a, 145px 145px #1e293a, 146px 146px #1e293a, 147px 147px #1e293a, 148px 148px #1e293a, 149px 149px #1e293a, 150px 150px #1e293a, 151px 151px #1e293a, 152px 152px #1e293a, 153px 153px #1e293a, 154px 154px #1e293a, 155px 155px #1e293a, 156px 156px #1e293a, 157px 157px #1e293a, 158px 158px #1e293a, 159px 159px #1e293a, 160px 160px #1e293a, 161px 161px #1e293a, 162px 162px #1e293a, 163px 163px #1e293a, 164px 164px #1e293a, 165px 165px #1e293a, 166px 166px #1e293a, 167px 167px #1e293a, 168px 168px #1e293a, 169px 169px #1e293a, 170px 170px #1e293a, 171px 171px #1e293a, 172px 172px #1e293a, 173px 173px #1e293a, 174px 174px #1e293a, 175px 175px #1e293a, 176px 176px #1e293a, 177px 177px #1e293a, 178px 178px #1e293a, 179px 179px #1e293a, 180px 180px #1e293a, 181px 181px #1e293a, 182px 182px #1e293a, 183px 183px #1e293a, 184px 184px #1e293a, 185px 185px #1e293a, 186px 186px #1e293a, 187px 187px #1e293a, 188px 188px #1e293a, 189px 189px #1e293a, 190px 190px #1e293a, 191px 191px #1e293a, 192px 192px #1e293a, 193px 193px #1e293a, 194px 194px #1e293a, 195px 195px #1e293a, 196px 196px #1e293a, 197px 197px #1e293a, 198px 198px #1e293a, 199px 199px #1e293a, 200px 200px #1e293a, 201px 201px #1e293a, 202px 202px #1e293a, 203px 203px #1e293a, 204px 204px #1e293a, 205px 205px #1e293a, 206px 206px #1e293a, 207px 207px #1e293a, 208px 208px #1e293a, 209px 209px #1e293a, 210px 210px #1e293a, 211px 211px #1e293a, 212px 212px #1e293a, 213px 213px #1e293a, 214px 214px #1e293a, 215px 215px #1e293a, 216px 216px #1e293a, 217px 217px #1e293a, 218px 218px #1e293a, 219px 219px #1e293a, 220px 220px #1e293a, 221px 221px #1e293a, 222px 222px #1e293a, 223px 223px #1e293a, 224px 224px #1e293a, 225px 225px #1e293a, 226px 226px #1e293a, 227px 227px #1e293a, 228px 228px #1e293a, 229px 229px #1e293a, 230px 230px #1e293a, 231px 231px #1e293a, 232px 232px #1e293a, 233px 233px #1e293a, 234px 234px #1e293a, 235px 235px #1e293a, 236px 236px #1e293a, 237px 237px #1e293a, 238px 238px #1e293a, 239px 239px #1e293a, 240px 240px #1e293a, 241px 241px #1e293a, 242px 242px #1e293a, 243px 243px #1e293a, 244px 244px #1e293a, 245px 245px #1e293a, 246px 246px #1e293a, 247px 247px #1e293a, 248px 248px #1e293a, 249px 249px #1e293a, 250px 250px #1e293a, 251px 251px #1e293a, 252px 252px #1e293a, 253px 253px #1e293a, 254px 254px #1e293a, 255px 255px #1e293a, 256px 256px #1e293a, 257px 257px #1e293a, 258px 258px #1e293a, 259px 259px #1e293a, 260px 260px #1e293a, 261px 261px #1e293a, 262px 262px #1e293a, 263px 263px #1e293a, 264px 264px #1e293a, 265px 265px #1e293a, 266px 266px #1e293a, 267px 267px #1e293a, 268px 268px #1e293a, 269px 269px #1e293a, 270px 270px #1e293a, 271px 271px #1e293a, 272px 272px #1e293a, 273px 273px #1e293a, 274px 274px #1e293a, 275px 275px #1e293a, 276px 276px #1e293a, 277px 277px #1e293a, 278px 278px #1e293a, 279px 279px #1e293a, 280px 280px #1e293a, 281px 281px #1e293a, 282px 282px #1e293a, 283px 283px #1e293a, 284px 284px #1e293a, 285px 285px #1e293a, 286px 286px #1e293a, 287px 287px #1e293a, 288px 288px #1e293a, 289px 289px #1e293a, 290px 290px #1e293a, 291px 291px #1e293a, 292px 292px #1e293a, 293px 293px #1e293a, 294px 294px #1e293a, 295px 295px #1e293a, 296px 296px #1e293a, 297px 297px #1e293a, 298px 298px #1e293a, 299px 299px #1e293a, 300px 300px #1e293a, 301px 301px #1e293a, 302px 302px #1e293a, 303px 303px #1e293a, 304px 304px #1e293a, 305px 305px #1e293a, 306px 306px #1e293a, 307px 307px #1e293a, 308px 308px #1e293a, 309px 309px #1e293a, 310px 310px #1e293a, 311px 311px #1e293a, 312px 312px #1e293a, 313px 313px #1e293a, 314px 314px #1e293a, 315px 315px #1e293a, 316px 316px #1e293a, 317px 317px #1e293a, 318px 318px #1e293a, 319px 319px #1e293a, 320px 320px #1e293a, 321px 321px #1e293a, 322px 322px #1e293a, 323px 323px #1e293a, 324px 324px #1e293a, 325px 325px #1e293a, 326px 326px #1e293a, 327px 327px #1e293a, 328px 328px #1e293a, 329px 329px #1e293a, 330px 330px #1e293a, 331px 331px #1e293a, 332px 332px #1e293a, 333px 333px #1e293a, 334px 334px #1e293a, 335px 335px #1e293a, 336px 336px #1e293a, 337px 337px #1e293a, 338px 338px #1e293a, 339px 339px #1e293a, 340px 340px #1e293a, 341px 341px #1e293a, 342px 342px #1e293a, 343px 343px #1e293a, 344px 344px #1e293a, 345px 345px #1e293a, 346px 346px #1e293a, 347px 347px #1e293a, 348px 348px #1e293a, 349px 349px #1e293a, 350px 350px #1e293a, 351px 351px #1e293a, 352px 352px #1e293a, 353px 353px #1e293a, 354px 354px #1e293a, 355px 355px #1e293a, 356px 356px #1e293a, 357px 357px #1e293a, 358px 358px #1e293a, 359px 359px #1e293a, 360px 360px #1e293a, 361px 361px #1e293a, 362px 362px #1e293a, 363px 363px #1e293a, 364px 364px #1e293a, 365px 365px #1e293a, 366px 366px #1e293a, 367px 367px #1e293a, 368px 368px #1e293a, 369px 369px #1e293a, 370px 370px #1e293a, 371px 371px #1e293a, 372px 372px #1e293a, 373px 373px #1e293a, 374px 374px #1e293a, 375px 375px #1e293a, 376px 376px #1e293a, 377px 377px #1e293a, 378px 378px #1e293a, 379px 379px #1e293a, 380px 380px #1e293a, 381px 381px #1e293a, 382px 382px #1e293a, 383px 383px #1e293a, 384px 384px #1e293a, 385px 385px #1e293a, 386px 386px #1e293a, 387px 387px #1e293a, 388px 388px #1e293a, 389px 389px #1e293a, 390px 390px #1e293a, 391px 391px #1e293a, 392px 392px #1e293a, 393px 393px #1e293a, 394px 394px #1e293a, 395px 395px #1e293a, 396px 396px #1e293a, 397px 397px #1e293a, 398px 398px #1e293a, 399px 399px #1e293a, 400px 400px #1e293a, 401px 401px #1e293a, 402px 402px #1e293a, 403px 403px #1e293a, 404px 404px #1e293a, 405px 405px #1e293a, 406px 406px #1e293a, 407px 407px #1e293a, 408px 408px #1e293a, 409px 409px #1e293a, 410px 410px #1e293a, 411px 411px #1e293a, 412px 412px #1e293a, 413px 413px #1e293a, 414px 414px #1e293a, 415px 415px #1e293a, 416px 416px #1e293a, 417px 417px #1e293a, 418px 418px #1e293a, 419px 419px #1e293a, 420px 420px #1e293a, 421px 421px #1e293a, 422px 422px #1e293a, 423px 423px #1e293a, 424px 424px #1e293a, 425px 425px #1e293a, 426px 426px #1e293a, 427px 427px #1e293a, 428px 428px #1e293a, 429px 429px #1e293a, 430px 430px #1e293a, 431px 431px #1e293a, 432px 432px #1e293a, 433px 433px #1e293a, 434px 434px #1e293a, 435px 435px #1e293a, 436px 436px #1e293a, 437px 437px #1e293a, 438px 438px #1e293a, 439px 439px #1e293a, 440px 440px #1e293a, 441px 441px #1e293a, 442px 442px #1e293a, 443px 443px #1e293a, 444px 444px #1e293a, 445px 445px #1e293a, 446px 446px #1e293a, 447px 447px #1e293a, 448px 448px #1e293a, 449px 449px #1e293a, 450px 450px #1e293a, 451px 451px #1e293a, 452px 452px #1e293a, 453px 453px #1e293a, 454px 454px #1e293a, 455px 455px #1e293a, 456px 456px #1e293a, 457px 457px #1e293a, 458px 458px #1e293a, 459px 459px #1e293a, 460px 460px #1e293a, 461px 461px #1e293a, 462px 462px #1e293a, 463px 463px #1e293a, 464px 464px #1e293a, 465px 465px #1e293a, 466px 466px #1e293a, 467px 467px #1e293a, 468px 468px #1e293a, 469px 469px #1e293a, 470px 470px #1e293a, 471px 471px #1e293a, 472px 472px #1e293a, 473px 473px #1e293a, 474px 474px #1e293a, 475px 475px #1e293a, 476px 476px #1e293a, 477px 477px #1e293a, 478px 478px #1e293a, 479px 479px #1e293a, 480px 480px #1e293a, 481px 481px #1e293a, 482px 482px #1e293a, 483px 483px #1e293a, 484px 484px #1e293a, 485px 485px #1e293a, 486px 486px #1e293a, 487px 487px #1e293a, 488px 488px #1e293a, 489px 489px #1e293a, 490px 490px #1e293a, 491px 491px #1e293a, 492px 492px #1e293a, 493px 493px #1e293a, 494px 494px #1e293a, 495px 495px #1e293a, 496px 496px #1e293a, 497px 497px #1e293a, 498px 498px #1e293a, 499px 499px #1e293a, 500px 500px #1e293a;
@@ -35,20 +37,78 @@ hr {
     margin: 1rem 0;
 }
 
-.App-header {
-    text-align: center;
+.invitation {
     background-color: #29384f;
-    height: 400px;
+    font-family: 'Playfair Display SC', serif;
+    padding: 2rem;
+    text-align: center;
+
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+}
+
+.invitation__layer-1 {
+    background-color: #f5bc9e;
+    padding: 1rem;
+}
+
+.invitation__layer-2 {
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.layer-2__leads {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.leads__lead {
+    font-family: 'Parisienne', cursive;
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.invitation__signup {
+    align-self: center;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    margin: 2rem;
+    padding: 1rem 1rem 1rem 1.5rem;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.invitation__signup::before {
+    border-top: 1rem solid transparent;
+    border-bottom: 1rem solid transparent;
+    border-right: 1rem solid #ffffff;
+    position: absolute;
+    top: 0;
+    left: -1rem;
+    bottom: 0;
+    content: "";
+}
+
+.signup__hole {
+    align-self: center;
+    background-color: #29384f;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    margin: 0 1rem 0 -2rem;
+    position: relative;
+
+    height: 1rem;
+    width: 1rem;
 }
 
 .title__highlight {
     color: #f5bc9e;
+    font-family: 'Parisienne', cursive;
+    text-transform: none;
 }
 
 .header__signup {
