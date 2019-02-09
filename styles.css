@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
+a {
+    color: #0369DD;
+    text-decoration: none;
+}
   
 body {
     color: #444444;
@@ -27,7 +32,7 @@ h2 {
     font-family: 'Playfair Display SC', serif;
     font-size: 1.5rem;
     font-weight: normal;
-    margin: 0;
+    margin: 0 0 1rem 0;
 }
   
 h3 {
@@ -40,9 +45,25 @@ h3 {
   
 hr {
     color: #444444;
-    margin: 1rem 0;
+    margin: 0 0 1rem 0;
 }
 
+p {
+    margin: 0 0 1rem 0;
+}
+
+section {
+    background-color: #ffffff;
+    position: relative;
+    padding: 2rem;
+}
+
+section > * {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/** --- Invitation --- */
 .invitation {
     background-color: #29384f;
     font-family: 'Playfair Display SC', serif;
@@ -65,7 +86,7 @@ hr {
     padding: 1rem;
 }
 
-.layer-2__leads {
+.leads {
     font-size: 1rem;
     margin-top: 1rem;
 }
@@ -88,6 +109,7 @@ hr {
     right: -8rem;
     z-index: 1;
 }
+
 .signup__layer-1 {
     background-color: #ffffff;
     border-top-left-radius: 0.75rem;
@@ -117,31 +139,56 @@ hr {
     width: 1rem;
 }
 
-.title__highlight {
-    color: #f5bc9e;
-    font-family: 'Parisienne', cursive;
-    text-transform: none;
+/* --- Intro --- */
+.intro {
+    display: flex;
+}
+  
+.intro__overview  {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-right: 2rem;
 }
 
-.header__signup {
+.intro__important {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 2rem;
+    grid-row-gap: 1.5rem;
+    flex-grow: 2;
+    flex-basis: 0;
+}
+
+.thing {
+    display: flex;
+}
+
+.thing__icon {
+    width: 64px;
+    height: 64px;
     border: 3px solid #f5bc9e;
-    padding: 1rem;
-    cursor: pointer;
+    border-radius: 50%;
+    margin-right: 1rem;
+    padding-left: 7px;
+    padding-top: 7px;
 }
   
-.header__signup:hover {
-    background-color: #f5bc9e;
+.thing__icon > i {
+    color: #f5bc9e;
+    font-size: 44px;
 }
   
-.title__highlight .header__signup {
-    border: 3px solid #f5bc9e;
-    padding: 1rem;
-    cursor: pointer;
+.thing__info {
+    flex-grow: 1;
+    flex-basis: 0;
 }
   
-.title__highlight .header__signup:hover {
-      background-color: #f5bc9e;
+.thing__info > ul {
+    margin: 0;
+    padding-left: 1.5rem;
 }
+
+/* --- Main section --- */
 
 .main__section {
     background-color: #ffffff;
@@ -149,7 +196,6 @@ hr {
     padding: 2rem;
 }
 
-/* Main section */
 
 .main__section > * {
       width: 1024px;
@@ -340,61 +386,6 @@ hr {
 }
 
 
-.important-stuff {
-    display: flex;
-  }
-  
-  .important-stuff__overview  {
-    flex-grow: 1;
-    flex-basis: 0;
-    padding-right: 1rem;
-  }
-  
-  .important-stuff__dots {
-    flex-grow: 2;
-    flex-basis: 0;
-    padding-left: 1rem;
-  }
-  
-  .dots {
-    display: flex;
-    margin-bottom: 2rem;
-  }
-  
-.dots > * {
-    flex-grow: 1;
-    flex-basis: 0;
-}
-  
-.dots__dot {
-    display: flex;
-    margin: 0 1rem;
-}
-  
-.dot__icon {
-    width: 64px;
-    height: 64px;
-    border: 3px solid #f5bc9e;
-    border-radius: 50%;
-    margin-right: 1rem;
-    padding-left: 7px;
-    padding-top: 7px;
-}
-  
-.dot__icon > i {
-    color: #f5bc9e;
-    font-size: 44px;
-}
-  
-.dot__info {
-    flex-grow: 1;
-    flex-basis: 0;
-}
-  
-.dot__info > ul {
-    margin: 0;
-    padding-left: 1.5rem;
-}
 
 
 .toast-masters {
