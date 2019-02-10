@@ -111,6 +111,12 @@ section > * {
     font-size: 2rem;
 }
 
+.leads__leo {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+    margin-top: 3px;
+}
+
 .invitation-signup {
     background-color: #29384f;
     border-top-left-radius: 1rem;
